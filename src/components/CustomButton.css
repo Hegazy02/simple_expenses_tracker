@@ -1,0 +1,10 @@
+.custom-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 16px;
+}

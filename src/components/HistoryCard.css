@@ -1,0 +1,51 @@
+.history-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 4px 14px 0 rgba(0, 0, 0, 0.098);
+    border-right: 2px solid white;
+    color: black;
+    margin-top: 10px;
+}
+
+.history-card-plus {
+    border-right: 4px solid green;
+
+}
+
+.history-card-minus {
+    border-right: 4px solid red;
+}
+
+.history-card p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.history-amount {
+    font-weight: bold;
+}
+
+.delete-button {
+    width: 20px;
+    height: 20px;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    color: white;
+    padding: 6px;
+
+}
+
+.card {
+    position: relative;
+}
+
+.card:hover .delete-button {
+    background-color: rgba(241, 42, 42, 0.443);
+
+}

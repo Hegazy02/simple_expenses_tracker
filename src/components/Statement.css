@@ -1,0 +1,13 @@
+.statement p {
+    margin: 0;
+}
+
+.balance-number {
+    font-weight: bold;
+    font-size: 18;
+}
+
+.balance-div {
+    text-align: left;
+    margin-bottom: 10px;
+}
